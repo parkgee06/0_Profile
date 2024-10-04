@@ -100,9 +100,17 @@ body{
 } */
 #menu li:not(:nth-of-type(4)) a, #menu li:not(:nth-of-type(4)).active a{
      padding: 16px 10px;
-     color: rgba(38, 48, 72, .8);
+     color: rgba(38, 48, 72, .3);
+     font-weight: 600;
      display:block;
+     transition: all ease-out .5s;
 }
+
+#menu li:not(:nth-of-type(4)) a:hover{
+     color: #fff;
+     font-weight: 600;
+}
+
 #menu li:not(:nth-of-type(4)).active a{
      color: #fff;
      font-weight: 600;
